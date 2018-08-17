@@ -18,20 +18,24 @@ import javax.swing.JOptionPane;
 public class NasaCountdown {
 	public static void main(String[] args) throws InterruptedException {
 		// 2. Use a pop-up to ask the user where to start counting from
-
+		  int ye= Integer.parseInt(JOptionPane.showInputDialog("Where Do You Want To Start Counting From?"));
 
 		// 3. Change the countdown to use the new starting point
-       int ye= Integer.parseInt(JOptionPane.showInputDialog("Where Do You Want To Start Counting From?"));
+     
 
 		// 1. Print a countdown from 10 to 0 on the console
-	for(int i = 0;i<ye;i++) {
-		System.out.println();
-
-	}
+   	for(int i = ye;i>0;i--) {
+		System.out.println(i);
+		speak  (i + "                   ");
+   	}
+		
+			
+			
+			
+		
 	
 
 			// 4. Use the speak method to hear the countdown.
-		
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
 		
 		// 5. when the counting is done, speak "blastoff!"
@@ -45,5 +49,6 @@ static void speak(String words) {
    	 }
   }
 }
+
 
 
