@@ -26,13 +26,10 @@ public class NasaCountdown {
 		// 1. Print a countdown from 10 to 0 on the console
    	for(int i = ye;i>0;i--) {
 		System.out.println(i);
-		speak  (i + "                   ");
+		speak  (i + "                                   ");
    	}
 		
-			
-			
-			
-		
+			 
 	
 
 			// 4. Use the speak method to hear the countdown.

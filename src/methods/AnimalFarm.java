@@ -17,11 +17,16 @@ public class AnimalFarm {
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
 		for(int i =1 ;i>0;i++) {
-		JOptionPane.showInputDialog("W hat a nimal s ound d o y ou w ant t o h ere ?");
+		JOptionPane.showInputDialog("What animal sound do you want to here?");
 		/* 2. Make it so that the user can keep entering new animals. */
-	}
+
+		if (moo == )
+		
+		}
 	}
 
+	
+	
 	void playMoo() {
 		playNoise(mooFile);
 	}
