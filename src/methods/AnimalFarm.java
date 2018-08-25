@@ -20,7 +20,7 @@ public class AnimalFarm {
 		JOptionPane.showInputDialog("What animal sound do you want to here?");
 		/* 2. Make it so that the user can keep entering new animals. */
 
-		if (moo == )
+		if (moo ==     )
 		
 		}
 	}
